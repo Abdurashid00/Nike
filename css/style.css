@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #e5e5e5;
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 15px 0;
+}
+
+.header__nav {
+  min-height: 65px;
+  background-color: #322e41;
+}
+
+.header__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 100%;
+  flex-wrap: wrap;
+}
+
+.header__list {
+  display: flex;
+  list-style: none;
+  height: 100%;
+  flex-wrap: wrap;
+}
+
+.header__link {
+  color: white;
+  text-decoration: none;
+  padding-left: 14px;
+  padding-right: 14px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.header__link:hover {
+  background: white;
+  color: #d47300;
+}
+
+.header {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header__block {
+  flex-grow: 1;
+  background-image: url(../img/nike.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header__title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 50px;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.header__text {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  color: white;
+}
+
+/* ----- header tugadi ----- */
+/*  ---- main boshlandi ---- */
+
+.main__block {
+  border-radius: 6px;
+  width: 540px;
+  min-height: 467px;
+  background: white;
+  padding: 15px;
+}
+
+.main__title {
+  font-family: "Roboto";
+  color: #2c2a2a;
+  font-size: 22px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.main_text {
+  font-family: "Roboto";
+  color: #9b9b9b;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+.main_item {
+  width: 255px;
+  height: 219px;
+  background: white;
+  border-radius: 6px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main_content {
+  display: flex;
+  position: relative;
+  top: -30px;
+}
+
+.main_info {
+  margin-left: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.main__title_size {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  line-height: 6px;
+}
+
+/* =====main finished======= */
+/* ===== footer starts */
+
+.footer {
+  height: 260px;
+  background: #322e41;
+  display: flex;
+  align-items: center;
+}
+
+.footer_form {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_input {
+  height: 34px;
+  border-radius: 6px;
+  padding: 8px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  font-family: "Roboto";
+  font-weight: 400px;
+}
+
+.footer_comment {
+  height: 86px;
+  border-radius: 6px;
+  padding: 8px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  font-family: "Roboto";
+  font-weight: 400px;
+  resize: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.footer_btn {
+  height: 25px;
+  background: #544294;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-family: "Roboto";
+  font-weight: 400px;
+  font-size: 16px;
+  color: white;
+}
+
+.footer_content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer_list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  width: 250px;
+  justify-content: space-between;
+}
+
+.footer_link {
+  color: white;
+  text-decoration: none;
+  font-family: "Roboto";
+  font-weight: 400px;
+  font-size: 16px;
+  width: 87px;
+  display: block;
+  transition: 0.1s;
+}
+
+.footer_link:hover {
+  color: #d57300;
+  transform: scale(1.2);
+}
